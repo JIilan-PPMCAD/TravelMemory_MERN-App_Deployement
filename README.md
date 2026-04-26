@@ -34,7 +34,7 @@ This project demonstrates **end-to-end deployment of a production-grade applicat
 
 ## 🏗️ Architecture
 
-<img width="681" height="741" alt="My_Travelapp_Arch drawio" src="https://github.com/user-attachments/assets/14f8d5ae-45d0-43fb-8545-70bbe1134fbe" />
+<img width="1408" height="768" alt="Image" src="https://github.com/user-attachments/assets/2ed8ceca-99d2-4382-a8d8-33d5f8a6c181" />
 
 
 ---
@@ -71,8 +71,8 @@ This project demonstrates **end-to-end deployment of a production-grade applicat
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/<your-username>/My_Travel_App.git
-cd My_Travel_App
+git clone https://github.com/JIilan-PPMCAD/<your-username>/Travel-Memory_MERN_APP_Deployement_.git
+cd Travel-Memory_MERN_APP_Deployement
 ```
 
 ---
@@ -195,7 +195,7 @@ https://jillsav.shop
 
 ## 👤 Author
 
-**Jills Varghese**
+**Jilan**
 
 ---
 
