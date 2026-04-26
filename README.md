@@ -2,8 +2,7 @@
 
 ## 🚀 Project Overview
 
-Travel Memory is a full-stack MERN application that allows users to record and manage their travel experiences, including trip details, images, and personal stories.
-
+The Travel Memory application has been developed using the MERN stack. Your challenge is to deploy this application on an Amazon EC2 instance. This will provide you with hands-on experience in deploying full-stack applications, working with cloud platforms, and ensuring scalable architecture.
 This project demonstrates **end-to-end deployment of a production-grade application** using modern DevOps practices on AWS.
 
 ---
