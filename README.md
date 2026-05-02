@@ -1,6 +1,6 @@
 # 🌍 Travel Memory App — Full Stack Deployment (MERN + DevOps)
 
-## Please refer this:  Mern_Apllication_Deployent-on-AWS_Assignment.docx  for assignment
+# Please refer this:  [Mern_Apllication_Deployent-on-AWS_Assignment.docx](https://github.com/JIilan-PPMCAD/TravelMemory_MERN-App_Deployement/blob/main/Mern_Apllication_Deployent-on-AWS_Assignment.docx)   for assignment
 
 ## 🚀 Project Overview
 
