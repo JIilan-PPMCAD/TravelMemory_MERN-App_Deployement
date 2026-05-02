@@ -96,8 +96,8 @@ Run backend:
 ```bash
 npm start
 ```
+<img width="866" height="143" alt="image" src="https://github.com/user-attachments/assets/de215d99-10f8-4b44-984b-e85d76c39199" />
 
-<img width="1413" height="190" alt="DB_connection_success" src="https://github.com/user-attachments/assets/c7977831-9762-43fd-ba92-1bee6fccb985" />
 ---
 
 ### 3. Frontend Setup
@@ -106,10 +106,7 @@ npm start
 cd ../frontend
 npm install
 npm start
-```
-<img width="1827" height="816" alt="Travelapp_blog" src="https://github.com/user-attachments/assets/9396bc04-cdb9-45ff-b4a7-3e36cfd971f4" />
 
----
 
 ## ☁️ Deployment Steps (Summary)
 
@@ -118,8 +115,9 @@ npm start
 * Hosted on EC2
 * Managed using PM2
 * Connected to MongoDB Atlas
-
-<img width="972" height="182" alt="EC2_db_conn" src="https://github.com/user-attachments/assets/fd7354ab-63ba-43e4-8fe6-a62849f2c899" />
+`````
+<img width="860" height="232" alt="image" src="https://github.com/user-attachments/assets/e9558afb-6de4-46b6-90f0-09e922d6522b" />
+````
 
 ### 🔹 Frontend Deployment
 
@@ -127,23 +125,19 @@ npm start
 * Served via Nginx
 
 ### 🔹 Reverse Proxy
-<img width="1607" height="758" alt="Nginx_installed_EC2" src="https://github.com/user-attachments/assets/9b1597dd-0e66-4195-8d59-97332514d22b" />
-
-* Nginx routes:
-
-  * `/` → React frontend
-  * `/api` → Node backend
-<img width="1788" height="763" alt="Travelapp_from_EC2IP" src="https://github.com/user-attachments/assets/67b560eb-4db0-4789-9881-b3747228be90" />
+```
+<img width="1346" height="457" alt="ngnix" src="https://github.com/user-attachments/assets/7e00d0f4-f7ba-4a72-99bf-e2562677217a" />
 
 ### 🔹 Load Balancing
 
 * AWS Application Load Balancer
 * Multiple EC2 instances for scalability
-  <img width="1556" height="347" alt="Multiple_EC2_Instances" src="https://github.com/user-attachments/assets/5da307c0-99b5-46ca-9495-38f1cb152309" />
+  <img width="1886" height="500" alt="image" src="https://github.com/user-attachments/assets/741f31f4-b2bd-403b-ab0b-e0201e0be723" />
+
 
 #### Testing Load Balancer.
   *Stoped an EC2 instance
-  <img width="1566" height="660" alt="Instance_stopped" src="https://github.com/user-attachments/assets/36542c58-0d10-477d-a904-7ec155f12397" />
+  <img width="1642" height="407" alt="image" src="https://github.com/user-attachments/assets/650c476d-5197-4b98-8945-f98c39146633" />
 
  * Browse the DNS of Load Balancer, The site should load fine.
    <img width="1587" height="835" alt="LB_working" src="https://github.com/user-attachments/assets/deff7838-60ea-4f4a-82c6-0c80857496cc" />
@@ -168,7 +162,7 @@ npm start
 ## 🌐 Live URL
 
 ```
-https://jillsav.shop
+https://www.jilan-ppmcad.online/ 
 ```
 
 ## 📦 Key DevOps Concepts Demonstrated
@@ -180,18 +174,6 @@ https://jillsav.shop
 * SSL/TLS configuration
 * Process management using PM2
 * Production deployment of MERN stack
-
----
-
-## 🔮 Future Improvements
-
-* CI/CD pipeline (GitHub Actions)
-* Auto Scaling Group
-* Docker containerization
-* Monitoring (CloudWatch / Prometheus)
-* Logging improvements
-
----
 
 ## 👤 Author
 
